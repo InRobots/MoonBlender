@@ -74,6 +74,11 @@ python -m src.main +experiment=re10k data_loader.train.batch_size=4
 ### Inference
 MoonGS provides an additional inference mode that reads COLMAP-format datasets (images plus intrinsics/extrinsics) and renders novel views at interpolated camera poses. This is especially convenient for the Chang’e sequences—just point it to the COLMAP outputs to obtain smooth, pose-interpolated renderings.
 
+## TODO
+
+- [ ] Semantic components: integrate optional semantic fusion and a semantic-aware loss. 
+- [ ] Heuristic resampling.
+
 ## Acknowledgements
 
 The project is largely based on [pixelSplat](https://github.com/dcharatan/pixelsplat), [MVSplat](https://github.com/donydchen/mvsplat), [DUSt3R](https://github.com/naver/dust3r),  and has incorporated numerous code snippets from [UniMatch](https://github.com/autonomousvision/unimatch). Many thanks to these projects for their excellent contributions!
