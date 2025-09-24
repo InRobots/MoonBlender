@@ -74,11 +74,7 @@ python -m src.main +experiment=re10k data_loader.train.batch_size=4
 ### Inference
 MoonGS provides an additional inference mode that reads COLMAP-format datasets (images plus intrinsics/extrinsics) and renders novel views at interpolated camera poses. This is especially convenient for the Chang’e sequences—just point it to the COLMAP outputs to obtain smooth, pose-interpolated renderings.
 
-<details open>
-  <summary>Preview: 0119_2020-02-19_PCAML</summary>
-  <video src="assets/chang%27e_outputs/0119_2020-02-19_PCAML.mp4" controls width="640"></video>
-</details>
-
+![preview](assets/chang_e_outputs/0119_2020-02-19_PCAML.gif)
 
 ## TODO
 
