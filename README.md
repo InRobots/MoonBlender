@@ -44,11 +44,11 @@ cd ../../../
 
 ### LuSNAR and MoonBlender
 
-MoonGS uses the same dataset format as pixelSplat and MVSplat. We also provide preprocessed datasets in this format. For details on the folder layout and metadata fields, please refer to the dataset structure described in the [pixelSplat](https://github.com/dcharatan/pixelsplat?tab=readme-ov-file).
+MoonGS uses the same dataset format as pixelSplat and MVSplat. We also provide [preprocessed datasets](https://modelscope.cn/datasets/xiaoc57/MoonBlender/) in this format. For details on the folder layout and metadata fields, please refer to the dataset structure described in the [pixelSplat](https://github.com/dcharatan/pixelsplat?tab=readme-ov-file).
 
 ### Chang'e (For Testing Only)
 
-MoonGS, like pixelSplat and MVSplat, assumes input view pairs with a reasonable camera baseline (i.e., sufficient parallax). For convenience, we provide a small, pre-filtered subset of Chang’e images that meet the baseline criteria. This set is for testing only.
+MoonGS, like pixelSplat and MVSplat, assumes input view pairs with a reasonable camera baseline (i.e., sufficient parallax). For convenience, we provide a small, pre-filtered subset of Chang’e images that meet the baseline criteria [here](https://modelscope.cn/datasets/xiaoc57/MoonBlender/). This set is for testing only.
 
 ## Running the Code
 
